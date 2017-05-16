@@ -1,0 +1,1 @@
+rmiregistry 5000

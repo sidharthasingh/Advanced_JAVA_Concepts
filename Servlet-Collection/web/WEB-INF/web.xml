@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+<<<<<<< HEAD
+        <servlet-name>addtwo</servlet-name>
+        <servlet-class>addtwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addtwo</servlet-name>
+        <url-pattern>/addtwo</url-pattern>
+=======
+        <servlet-name>demo_HttpServlet</servlet-name>
+        <servlet-class>demo_HttpServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>demo_Servlet</servlet-name>
+        <servlet-class>demo_Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>demo_GenericServlet</servlet-name>
+        <servlet-class>demo_GenericServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>demo_HttpServlet</servlet-name>
+        <url-pattern>/demo_HttpServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>demo_Servlet</servlet-name>
+        <url-pattern>/demo_Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>demo_GenericServlet</servlet-name>
+        <url-pattern>/demo_GenericServlet</url-pattern>
+>>>>>>> 64da9ee70abce3b2df9d22009f7350fa86950922
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
